@@ -1,3 +1,5 @@
+# Drew Van Amberg
+
 password = input()
 def encode(password):
     new_password = ''
