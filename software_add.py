@@ -9,6 +9,15 @@ def encode(password):
         new_password += str(character)
     return new_password
 
+#David Favors
+def decode(password):
+    new_password = ''
+    for character in password:
+        character = int(character)
+        character -= 3
+        new_password += str(character)
+    return new_password
+
 
 def main():
     resume = True
